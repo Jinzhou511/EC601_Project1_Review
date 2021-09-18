@@ -1,12 +1,28 @@
-Problem Statement:  
+1.Problem Statement:  
 What does the topic cover?
 Why it is important?
-Applications
+
+This can be basically divided into two parts:
+    1. The Soul: Robot's visual processing and machine learning algorithms
+    2. The Body: the motion algorithm when the robot interacts with the physical world
+I think that the first part, that is, the robot vision and machine learning algorithm part is the core part, it contains methods for the robot camera to obtain 2D image, 3D depth image, points cloud and further processing. This part is an important prerequisite for robot target recognition and corresponding feedback.After obtaining high-quality image or point cloud data, the machine learning model that has been trained is recognized, and finally the target information is returned, such as what the object is, the position and posture information of the object, etc.
+The other part is the motion algorithm when the robot interacts with the physical world. After the robot obtains the recognition result, it must perform specified operations on the target. The realization of these operations requires appropriate navigation methods, robotic arm motion planning, and flexible operation technology.
+We can almost say that where there are people working, robots can go to work in this place, and even where people can’t reach, robots can also reach there and perform work. This means that, first, robots can assist humans in completing tasks in a large number of fields and scenarios and improve work efficiency and accuracy, second, special robots designed for special environments can work in extreme scenarios to prevent humans from being dangerous.We can give examples based on scenarios. For example, in a precision processing factory, such as chip processing and drug processing, every step of the operation requires extremely high precision.But humans often cannot do such precise operations, so factories can choose robots to operate, from identifying the operating area to completing the operation, and humans only need to adjust the robots and check the correctness of the results.
+
+2.Applications
 What are applications of the topic?
 What is the societal significance of the research?
-Pick an area of focus that interests you in the topic
-Literature review
+
+
+3.Pick an area of focus that interests you in the topic
+
+
+4.Literature review
 As comprehensive as you can, research the different approaches and solutions in research community and industry
-Open Source research
+
+
+5.Open Source research
 Research the different open source projects that touch the topic of your interest
-Duplicate the results
+
+
+6.Duplicate the results
